@@ -2,9 +2,11 @@
 
 int Fibonacci(int n){
 
+    //base case
     if(n == 0 || n == 1)
         return n;
     else
+        //recursive case
         return Fibonacci(n - 1) + Fibonacci(n - 2);
 }
 
